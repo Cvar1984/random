@@ -1,7 +1,8 @@
 {
     "name": "cvar1984/random",
     "description": "Generate random data.",
-    "keywords": ["user agent", "user-agent", "user agents", "spoofing user"],
+    "keywords": ["referer", "user-agent"],
+    "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
         {
