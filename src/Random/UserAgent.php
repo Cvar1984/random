@@ -10,7 +10,7 @@
  * @author Joe Campo
  */
 
-namespace Campo;
+namespace Cvar1984\Random;
 
 class UserAgent
 {
@@ -180,7 +180,7 @@ class UserAgent
      */
     private static function inFilter($key, $array)
     {
-        return in_array(strtolower($key), array_map('strtolower', (array) $array));
+        return in_array(strtolower($key), array_map('strtolower', (array)$array));
     }
 
     /**

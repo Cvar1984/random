@@ -1,12 +1,16 @@
 {
-    "name": "campo/random-user-agent",
-    "description": "Generate real random user-agents.",
+    "name": "cvar1984/random",
+    "description": "Generate random data.",
     "keywords": ["user agent", "user-agent", "user agents", "spoofing user"],
     "license": "MIT",
     "authors": [
         {
             "name": "Joe Campo",
             "email": "jcampo@gmail.com"
+        },
+        {
+            "name": "Cvar1984",
+            "email": "gedzsarjuncomuniti@gmail.com"
         }
     ],
     "require": {
@@ -14,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Campo\\": "src/"
+            "Cvar1984\\": "src/"
         }
     },
     "require-dev": {

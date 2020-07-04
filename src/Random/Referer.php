@@ -1,7 +1,20 @@
 <?php
 
-class Referer {
-    public static function random()
+namespace Cvar1984\Random;
+
+/**
+ * Class: Referer
+ * get random referer
+ *
+ */
+class Referer
+{
+    /**
+     * random
+     * @return string
+     *
+     */
+    public static function random() : string
     {
         $list[] = 'http://facebook.com';
         $list[] = 'http://m.facebook.com';
